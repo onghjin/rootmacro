@@ -11,7 +11,7 @@ echo runmax $runmax
 while :
 do
   if [ $runnum -lt $runmax ]; then
-     echo Nex run is $runnum
+     echo Next run is $runnum
      filename='pd14Jul0'$runnum'.lmd'
      echo Analyzing data_p/$filename
     ./MainUserAnalysis data_p/$filename
