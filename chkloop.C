@@ -1,5 +1,6 @@
+#!$ROOTSYS/bin/root 
 {
-  gSystem->Load("/home/daq/Desktop/s436/offline/jin2018jan/chkcaldata.C");
+  gROOT->LoadMacro("chkcaldata.C");
   chkcaldata t;
   t.Loop();
 }
