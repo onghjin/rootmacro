@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# Usage: ./loop.sh 
+# Usage: ./loop.sh runmin runmax
 #
 runmin=$1
 runmax=$2
